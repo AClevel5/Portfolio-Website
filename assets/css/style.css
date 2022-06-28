@@ -1,3 +1,65 @@
-*{
-    background-color: aqua;
+:root {
+    --background: rgb(233, 231, 231);
+    --boxbackground: rgb(99, 99, 99);
+    --bluelettering: #3466bb;
+
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.75rem;
+    line-height: 1.5;
+    background-color: var(--background);
+}
+
+h1,
+h2,
+h3 {
+    margin-bottom: .625rem;
+    color: black;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: var(--boxbackground);
+
+}
+
+header h1.page-title {
+    font-size: 4.5rem;
+    background-color: rgb(99, 99, 99);
+    color: rgb(233, 231, 231);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+}
+nav a {
+    color: coral;
+    text-decoration: none;
+    font-weight:bold;
+    padding-right: 1rem;
+}
+
+nav a:hover {
+    color: var(--bluelettering);
 }
