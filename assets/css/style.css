@@ -2,6 +2,7 @@
     --background: rgb(233, 231, 231);
     --boxbackground: rgb(99, 99, 99);
     --bluelettering: #3466bb;
+    --orangelettering: coral;
 
 }
 
@@ -27,6 +28,7 @@ h1 {
 
 h2 {
     font-size: 2rem;
+    color: var(--bluelettering)
 }
 
 h3 {
@@ -45,7 +47,7 @@ header {
 header h1.page-title {
     font-size: 4.5rem;
     background-color: rgb(99, 99, 99);
-    color: rgb(233, 231, 231);
+    color: var(--orangelettering);
 }
 
 nav ul {
