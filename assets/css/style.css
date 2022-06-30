@@ -11,7 +11,26 @@ body {
     font-size: 1.75rem;
     line-height: 1.5;
     background-color: var(--background);
+
 }
+
+main {
+    width: 96%;
+    margin: 2 rem auto;
+
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
 
 h1,
 h2,
@@ -64,4 +83,43 @@ nav a {
 
 nav a:hover {
     color: var(--bluelettering);
+}
+
+figure {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectcard {
+    position: relative;
+    margin: 3 rem;
+    background-color: var(--boxbackground)
+}
+
+.aboutme {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:inherit;
+}
+
+.aboutmetitle {
+    height: 15%;
+}
+
+.aboutmesection {
+position: relative;
+top: 40px
+
+}
+
+.project-column {
+    flex: 1 0 100%;
+    padding: 2rem;
+    transition: flex-basis 500ms linear;
+    margin-bottom: 2rem;
+
 }
