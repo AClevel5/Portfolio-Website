@@ -14,18 +14,20 @@
     <h1 class="page-title">Alex Cleveland</h1>
     <nav>
         <ul>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact Me</a></li>
-            <li><a href="#">Resume</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#resume">Resume</a></li>
         </ul>
     </nav>
+    
 </header>
 
 
     <main>
-        <section class="aboutme">
-            <h2 class="aboutmetitle">About Me</h2>
+        <h2 class="aboutmetitle">About Me</h2>
+        <section id="about" class="aboutme">
+            
             <p class="aboutmesection">Welcome to my portfolio!
              My name is Alex Cleveland and I have spent all of my professional career in some form of sales role.
             Currently, I am in a hybrid role of Sales & Project management for commercial kitchens.
@@ -34,10 +36,8 @@
             <img src="assets/images/Alex.png" alt="Alex Cleveland">
         </section>
 
-
-        <section class="row justify-center"> 
-            
-            <h2>Projects</h2> 
+        <h2 id="projects">Projects</h2>
+        <section class="row justify-center">  
             <projectcard class="project-column">         
             <figure class="project-card" >
                 <h3>Project 1</h3>
@@ -82,14 +82,14 @@
         </section>
 
         <section>
-            <h2>Contact:</h2>
+            <h2 id="contact">Contact:</h2>
             <p>Alex Cleveland Alexcleveland5@gmail.com 330-310-3930</p>
         </section>
 
     </main>
 
     <footer>
-        <h2>Resume</h2>
+        <h2 id="resume">Resume</h2>
         <img src="#" alt="Resume">
     </footer>
 </body>
