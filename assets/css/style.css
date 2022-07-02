@@ -127,6 +127,15 @@ position: relative;
 
 }
 
+.contact-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#img1 {
+    height: 350px;
+    width: 350px;
+}
 .project-column {
     flex: 1 0 100%;
     padding: 2rem;
@@ -144,8 +153,8 @@ position: relative;
     color: var(--boxbackground);
 }
 
-.project-card pre:active {
-    user-select: all;
+.project-card:hover {
+    opacity: .5;
 }
 
 @media screen and (min-width: 768px) {
