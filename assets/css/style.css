@@ -108,8 +108,9 @@ figure {
     position: relative;
     display: flex;
     flex-direction: row;
-    flex-wrap:inherit;
     margin-bottom: 10%;
+   
+    
     
 }
 
@@ -123,6 +124,7 @@ figure {
 
 .aboutmesection {
 position: relative;
+
 
 
 }
@@ -161,6 +163,8 @@ position: relative;
     .project-column {
         flex: 0 0 50%
     }
+   
+    }
   
 
 @media screen and (min-width: 990px) {
@@ -169,5 +173,5 @@ position: relative;
         flex: 0 0 33.333%;
         max-width: 33.333%;
     }
-}
+    
 }
