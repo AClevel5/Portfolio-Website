@@ -5,12 +5,13 @@
     --orangelettering: coral;
 
 }
-*{
+
+* {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.75rem;
     line-height: 1.5;
     background-color: var(--background);
@@ -22,6 +23,7 @@ main {
     margin: 2 rem auto;
 
 }
+
 img {
     box-shadow: 0px 10px 10px black;
 }
@@ -67,7 +69,7 @@ header {
     align-items: center;
     padding: 1%;
     background-color: var(--boxbackground);
-    margin-bottom:5%;
+    margin-bottom: 5%;
 
 }
 
@@ -82,10 +84,11 @@ nav ul {
     justify-content: space-between;
     min-width: 100px;
 }
+
 nav a {
     color: var(--bluelettering);
     text-decoration: none;
-    font-weight:bold;
+    font-weight: bold;
     padding-right: 1rem;
 }
 
@@ -100,7 +103,7 @@ figure {
     grid-template-rows: auto auto;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .projectcard {
@@ -118,12 +121,12 @@ figure {
 
 .aboutmetitle {
     height: 15%;
-    position:relative;
-    bottom:10%
+    position: relative;
+    bottom: 10%
 }
 
 .aboutmesection {
-position: relative;
+    position: relative;
 
 
 
@@ -142,12 +145,13 @@ position: relative;
     width: 350px;
     box-shadow: 0px 15px 15px black;
 }
+
 .project-column {
     flex: 1 0 100%;
     padding: 2rem;
     transition: flex-basis 500ms linear;
     margin-bottom: 2rem;
-   
+
 
 }
 
@@ -160,7 +164,7 @@ position: relative;
     color: var(--boxbackground);
 }
 
-.resumelinks{
+.resumelinks {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -170,10 +174,11 @@ position: relative;
     margin-bottom: 50px;
 }
 
-a:link, a:visited {
-    color:black
-
+a:link,
+a:visited {
+    color: black
 }
+
 a:hover {
     color: var(--orangelettering);
 }
@@ -187,9 +192,9 @@ a:hover {
     .project-column {
         flex: 0 0 50%
     }
-   
-    }
-  
+
+}
+
 
 @media screen and (min-width: 990px) {
 
@@ -197,5 +202,5 @@ a:hover {
         flex: 0 0 33.333%;
         max-width: 33.333%;
     }
-    
+
 }
